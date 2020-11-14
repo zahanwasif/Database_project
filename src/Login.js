@@ -33,7 +33,7 @@ const Login = (props) => {
             />
             <p className ="errorMsg">{passwordError}</p>
             <div className = "btnContainer">
-                {hasAccount? (
+                {!hasAccount? (
                     <>
                     <button onClick={handleLogin}> Sign in</button>
                     <p>
