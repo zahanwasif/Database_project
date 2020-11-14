@@ -29,6 +29,23 @@
     box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
   }
 
+  .signin .button{
+
+    align-items: center;
+    padding-top: 1cm;
+    
+    
+  }
+
+  .signin .button .buttonContainer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+
   button {
     border: none;
     outline: none;
@@ -46,5 +63,7 @@
       rgba(157, 161, 163, 0.9) 59%,
       rgba(206, 209, 209, 0.9) 100%
   );
+
+  
     
   }

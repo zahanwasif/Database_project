@@ -3,13 +3,15 @@
   margin: 0;
   padding: 0;
   font-family: "Nunito", sans-serif;
-}
+} */
 
-button {
+ button {
   border: none;
+  font-family: "Nunito", sans-serif;
   outline: none;
   width: 50%;
-  padding: 15px 0;
+  height: 10%;
+  padding: 10px 0;
   color: rgb(0, 0, 0);
   font-size: 16px;
   position: relative;
@@ -23,9 +25,9 @@ button {
     rgba(206, 209, 209, 0.9) 100%
   );
   cursor: pointer;
-}
+} 
 
-.login {
+ .login {
   width: 100%;
   min-height: 100vh;
   padding: 0 20px;
@@ -68,9 +70,9 @@ button {
   background: rgba(0, 0, 0, 0.1);
   color: rgb(0, 0, 0);
   letter-spacing: 1px;
-}
+} 
 
-.login .loginContainer .btnContainer {
+ .login .loginContainer .btnContainer {
   width: 100%;
   padding: 24px 0;
 }
@@ -97,6 +99,11 @@ button {
 .login .loginContainer .errorMsg {
   color: red;
   font-size: 16px;
+} 
+
+ .signup {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .hero {

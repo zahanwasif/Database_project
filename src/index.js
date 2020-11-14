@@ -1,22 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import './index.css';
-//import './signup.css';
-//import './Futsalfield.css';
-//import './Usertype.css';
-//import './App.css';
-//import Signin from './signin';
-//import Login from './Login' ;
-//import Usertype from './Usertype' ;
 import reportWebVitals from './reportWebVitals';
-import Futsalfield from './Futsalfield';
-//import App from './App';
-
-
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Futsalfield />  
+    <App />  
   </React.StrictMode>,
   document.getElementById('root')   
 );
